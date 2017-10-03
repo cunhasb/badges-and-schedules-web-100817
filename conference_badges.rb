@@ -13,5 +13,4 @@ def assign_rooms(attendees)
   x = (0...attendees.size).map do |index|
      "Hello, #{attendees[index]}! You'll be assigned to room #{index+1}!"
    end
-   binding.pry
  end
